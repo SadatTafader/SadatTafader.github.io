@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sadat Personal Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu+Mono&display=swap" rel="stylesheet"> 
+    <script src="script.js"></script>
+</head>
+
+<body>
+    <div id="pseudoNav">
+        <div id="pseudoNavTop">
+            <ul id="pseudoSettings">
+                <li><u>F</u>ile</li>
+                <li><u>E</u>dit</li>
+                <li><u>V</u>iew</li>
+                <li><u>N</u>avigate</li>
+                <li><u>C</u>ode</li>
+                <li><u>R</u>efactor</li>
+                <li>R<u>u</u>n</li>
+                <li><u>T</u>ools</li>
+                <li>VC<u>S</u></li>
+                <li><u>W</u>indow</li>
+                <li><u>H</u>elp</li>
+            </ul>
+            <div id=topRight>
+                <div id="mini" class='topRight'></div>
+                <div id="full" class='topRight'></div>
+                <div id="exit" class='topRight'></div>
+            </div>
+        </div>
+        <div id="pseudoNavBottom">
+            <h1>Sadat Tafader</h1>
+            <h2>></h2>
+            <img src="images/python logo.bmp" alt="" class="docLogo" id="nextName">
+            <img src="images/python top right.bmp" alt="" id="toprightlogo">
+            <div id="pseudoNavBotRight"></div>
+        </div>
+
+    </div>
+
+
+    <div id="pseudoTab">
+        <div id='topNav'>
+            <img src="images/project selector.bmp" alt="" id="project">
+            <img src="images/file settings.bmp" alt="" id="fileSet">
+        </div>
+        <div id="currentTab">
+            <img src="images/python logo.bmp" alt="">
+            <h1 id="currentTabName">Main</h1>
+            <div id="closeTab"><h6 id="x"></h6></div>
+        </div>
+    </div>
+
+
+
+    <div id="pseudoSidebar">
+
+        <img src="images/side bar.bmp" alt="" id="sideBarImg">
+        <img src="images/sidebar favorite.bmp" alt="" id="favorite">
+    </div>
+    <nav id="navbar">
+        <h1 id="navTop">Sadat Tafader</h1>
+        <div id="TabOptions">
+            <input id="maintab" type="radio" name="tab" onclick="openTab('Main')" class="buttons" checked> <label
+                for="maintab" class="container">Main</label>
+            <input id="edutab" type="radio" name="tab" onclick="openTab('Education')" class="buttons"><label
+                for="edutab" class="container">Education</label>
+            <input id="protab" type="radio" name="tab" onclick="openTab('Projects')" class="buttons"><label for="protab"
+                class="container">Projects</label>
+            <input id="conttab" type="radio" name="tab" onclick="openTab('Contact')" class="buttons"><label
+                for="conttab" class="container">Contact</label>
+        </div>
+    </nav>
+    
+    
+    
+    
+    
+    <main>
+        <div id="mainside"></div>
+        <div class="tabs" id="Main" onclick="openTab('Main')">
+            <h1>Sadat Tafader</h1>
+            <h2>About Me</h2>
+            <p>I am a Full Stack Junior Developer. I graduated Majoring in Chemistry and Physics at the University of Bath. 
+            </p><br> 
+            <h3>
+                status
+            </h3>
+            <p>
+                Currently I am completing a Machine Learning Course in which I am learning to use Tenser flow with Python. My current project is making an algorithm to compete against bots in rock, paper scissors. 
+            </p><br><br>
+                <h3 id="navHow"><<< Use the files to Navigate</h3>
+
+        </div>
+        <div class="tabs" id="Education" onclick="openTab('Education')">
+            <h1>Education</h1>
+            <h2>BSc (Hons) Natural Sciences from The University of Bath</h2>
+            <p>
+                October 2016 - July 2020 <br>
+                Major in Chemistry and Minor in Physics.<br>
+        
+            </p><br>
+            <h2>A-Levels from John Hampden Grammar School</h2>
+            <p>September 2014-2016
+                A Physics<br>
+                A Maths<br>
+                A Further Maths (AS)<br>
+                B Chemistry<br>
+                C Economics</p>
+            <br>
+            <h3>Machine Learning with Python</h3>
+            <p> Created many models using TensorFlow and other machine learning libraries. This includes making a cat and dog image classification model, a book recommendation engine, health cost calculator and a neural network SMS text classifier. Links to my google Colab notebooks of these projects can be found in the projects tab. </p><br>
+            <h3>Data Analysis with Python</h3>
+            <p> Using lectures create by Santiago Basulto from RMOTR, learnt the whole process of Data Analysis: reading data from multiple sources (CSVs, SQL, Excel, etc), processing them using NumPy and Pandas, visualize them using Matplotlib and Seaborn and clean and process it to create reports. During this coursework I also learnt the basics of Jupyter Notebook. This is a Developer Certification, representing approximately 400 hours of coursework.</p><br>
+            
+            <h3>Scientific Computing with Python</h3>
+            <p>A course was created by Dr. Charles Severance, a Clinical Professor at the University of Michigan. This is a Developer Certification, representing approximately 400 hours of coursework with python.</p><br>
+            
+            <h3>Responsive Web Design Certification</h3>
+            <p>Learnt HTML, CSS and Javascript by completing projects, such as webpages such as this. 5 Projects were completed.</p><br>
+            
+            
+            
+            
+            
+            <h3>Python Certification</h3>
+            <p>which covers topics like Scalar Types, Operators and Control Flow, Strings, Collections and Iteration, Modularity, Objects and Types and Classes.</p>
+            <br>
+            
+            <h3>JavaScript Certification</h3>
+            <p>Which covers topics like, Functions, Currying, Hoisting, Scope, Inheritance,Events and Error Handling.</p>
+            <br>
+            
+            <h3>Java Certification</h3>
+            <p>which covers basic topics in Java language such as classes, data structures,inheritance, exception handling, etc.</p><br>
+            
+            <h3>Problem Solving Certification</h3>
+            <p>Which covers topics of Data Structures (such as Arrays, Strings) and Algorithms (such as Sorting and Searching).</p>
+
+        </div>
+        <div class="tabs" id="Projects" onclick="openTab('Projects')">
+            <h1>Projects</h1>
+            <div id="projectPack">
+                
+                <a class="projectCards" href="https://colab.research.google.com/drive/1gBwfuR-i81Oa2DxKJtfwQTwUyPHCkqua?usp=sharing" target="_blank" target="_blank">
+                    <div class="imageContainer">
+                    <img class="projectImg"  src="Projects/cats and dog.webp" alt="" ></div>
+                    <h1>Cat and Dog image recognition</h1>
+                    <p>A Machine Learning model that can tell wether an image contains a cat or dog.</p>
+                </a>
+
+                <a class="projectCards" href="https://colab.research.google.com/drive/1eHjCoTYb5E9od2cFlDSdJ22vap39h-WM?usp=sharing" target="_blank" target="_blank">
+                    <div class="imageContainer">
+                    <img class="projectImg"  src="Projects/spamorham.webp" alt="" ></div>
+                    <h1>Spam or Ham?</h1>
+                    <p>A text classification model made with tensorflow that decides wether a message is spam or not.</p>
+                </a>
+                
+                <a class="projectCards" href="https://colab.research.google.com/drive/1uVbWI3hS6abLTCqfoSfRg8mx3EECY4fu?usp=sharing" target="_blank" target="_blank">
+                    <div class="imageContainer">
+                    <img class="projectImg"  src="Projects/bookrecommendation.jpg" alt="" ></div>
+                    <h1>Book Recommendation using KNN</h1>
+                    <p>Using the KNN machine learning algorithm, recommendation function was made that takes the name of a book and returns 5 recommendations.</p>
+                </a>
+
+                <a class="projectCards" href="https://colab.research.google.com/drive/1AQDgWcL0z7hJ1FI-gOt7JZ7aKVHwhba4?usp=sharing" target="_blank" target="_blank">
+                    <div class="imageContainer">
+                    <img class="projectImg"  src="Projects/healthcost.jpg" alt="" ></div>
+                    <h1>Predicting Health costs with regression</h1>
+                    <p> predict healthcare costs using TensorFlow regression model. </p>
+                </a>
+                <a class="projectCards" href="https://github.com/SupremeSadat/Data-Analysis-with-Python-Projects" target="_blank" target="_blank">
+                    <div class="imageContainer">
+                    <img class="projectImg"  src="Projects/Certification_Data.jpg" alt="" ></div>
+                    <h1>Data_Science_Certification</h1>
+                    <p>Data_Science_Certification which I completed 5 projects to achieve.</p>
+                </a>
+
+                <a class="projectCards" href="https://github.com/SupremeSadat/Scientific-Computing" target="_blank">
+                    <div class="imageContainer">
+                    <img class="projectImg"  src="Projects/Certification_Python.jpg" alt=""></div>
+                    <h1>Python_Certification</h1>
+                    <p>A Python Certification which I made 5 projects to achieve.</p>
+                </a>
+                
+                <a class="projectCards" href="https://github.com/SupremeSadat/Data-Analysis-with-Python-Projects" target="_blank">
+                    <div class="imageContainer">
+                    <img class="projectImg"  src="Projects/data-Medical.jpg" alt=""></div>
+                    <h1>Medical_Data_Analysis</h1>
+                    <p>Visualized and made calculations from medical examination data using matplotlib, seaborn, and pandas.</p>
+                </a>
+
+                <a class="projectCards" href="https://github.com/SupremeSadat/Data-Analysis-with-Python-Projects" target="_blank">
+                    <div class="imageContainer">
+                    <img class="projectImg"  src="Projects/data-sea.jpg" alt=""></div>
+                    <h1>Sea_Level_Predictor</h1>
+                    <p>Analyze a dataset of the global average sea level change since 1880. Used the data to predict the sea level change through year 2050.</p>
+                </a>
+
+                <a class="projectCards" href="https://github.com/SupremeSadat/Data-Analysis-with-Python-Projects" target="_blank">
+                    <div class="imageContainer">
+                    <img class="projectImg"  src="Projects/data-time.jpg" alt=""></div>
+                    <h1>Page_View_Time_Series_Visualizer</h1>
+                    <p>Visualized data containing page visits each day producing a line chart, bar chart, and box plot using Pandas, matplotlib, and seaborn</p>
+                </a>
+
+                <a class="projectCards" href="https://github.com/SupremeSadat/supremesadat.github.io" target="_blank">
+                    <div class="imageContainer">
+                    <img class="projectImg"  src="Projects/Python_Portfolio.jpg" alt=""></div>
+                    <h1>Python_Portfolio</h1>
+                    <p>This webpage. A python styled responsive portfolio made with HTML,CSS and JavaScript.</p>
+                </a>
+                
+                <a class="projectCards" href="https://codepen.io/SupremeSadat/pen/zYGdYmP" target="_blank">
+                    <div class="imageContainer">
+                    <img class="projectImg"  src="Projects/Survey_form.jpg" alt=""></div>
+                    <h1>Survey_form</h1>
+                    <p>A Survey webpage made with HTML and CSS.</p>
+                </a>
+                
+                <a class="projectCards" href="https://codepen.io/SupremeSadat/pen/rNxJzXV" target="_blank">
+                    <div class="imageContainer">
+                    <img class="projectImg"  src="Projects/Technical_Documentation.jpg" alt=""></div>
+                    <h1>Technical_Documentation</h1>
+                    <p>A responsive webpage that contains some of the basic HTML and CSS I learnt.</p>
+                </a>
+                
+                <a href="https://codepen.io/SupremeSadat/pen/VwLbepa" class="projectCards" target="_blank">
+                    <div class="imageContainer">
+                    <img class="projectImg"  src="Projects/Tribute_page.jpg" alt=""></div>
+                    <h1>Tribute_page</h1>
+                    <p>A very basic webpage made from HTML and CSS. One of my first ever webpages. Made using basic HTML and CSS.</p>
+                </a>
+                
+                <a href="https://github.com/SupremeSadat/C-Programming-CW/tree/master/Coursework%201%20(worth%2035%25)" class="projectCards" target="_blank">
+                    <div class="imageContainer">
+                    <img class="projectImg"  src="Projects/Calculating_legrangian_point.jpg" alt=""></div>
+                    <h1>Calculating_lagrangian_point</h1>
+                    <p>A program written in C that calculates the lagrangian point of the earth and moon.</p>
+                </a>
+                
+                <a href="https://github.com/SupremeSadat/C-Programming-CW/tree/master/coursework%202%20(worth%2065%25)" class="projectCards" target="_blank">
+                    <div class="imageContainer">
+                    <img class="projectImg"  src="Projects/Random_Walk.jpg" alt=""></div>
+                    <h1>Random_Walk</h1>
+                    <p>A program written in C that simulates random walks in 1D, 2D and 3D and custom paths.</p>
+                </a>
+                
+            
+            </div>
+        </div>
+        
+        
+        <div class="tabs" id="Contact" onclick="openTab('Contact')">
+            <h1>Contact</h1>
+            
+             <a id="profile-link" href="https://github.com/SupremeSadat" target="_blank" class="ContactMe">GitHub: github.com/SupremeSadat</a><br>
+             <a id="profile-link" href="https://www.linkedin.com/in/sadattafader/" target="_blank" class="ContactMe"> LinkedIn: www.linkedin.com/in/sadattafader</a><br>
+             <a id="profile-link" href="" target="_blank" class="ContactMe">Email: sadat.tafader@gmail.com</a><br>
+                
+                
+            
+
+        </div>
+    </main>
+
+    <div id="pseudoBottomBar">
+        <img src="images/git bar.bmp" alt="" id="gitBar">
+        <img src="images/event log.bmp" alt="" id="eventLogo">
+        <div id=bottomBotBar>
+            <img src="images/bottom left logo.bmp" alt="" id="bottomleftlogo">
+            <img src="images/bottom right.bmp" alt="" id="bottomRight">
+        </div>
+    </div>
+
+</body>
+
+</html>
