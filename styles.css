@@ -123,7 +123,9 @@
             }
         /* Under File, where it says Sadat Tafader. width of screen minus side bar */
         #pseudoNavBottom{
-            border-color: purple;
+  
+            display: flex;
+            justify-content: start;
             border-top: 1px solid #515252;
             border-bottom:1px solid black;
             height: calc(var(--pseudoNavHeight) - var(--pseudoNavTopHeight))
@@ -131,30 +133,33 @@
         }
 
             #pseudoNavBottom h1{
-                position: absolute;
+                
+                width:100px;
+                position: relative;
                 margin-left: 10px;
                 margin-top: 6px;
                 font-weight: 620;
                 font-size: 12px;
             }
             #pseudoNavBottom h2{
-                background-color: #3c3c3c;
+                background-color: transparent;
+                /* background-color: blue; */
                 font-family: 'Courier New', Courier, monospace;
                 color: #636464;
-                position: absolute;
-                margin-left: 88px;
-                margin-top: 7px;
+                padding-top: 1px;
+                margin-left: 0px;
+                margin-top: 6px;
                 font-weight: 400;
                 transform: scale(0.6,2);
+                height: 13px;
+                width:10px;
+                
             }
             #nextName{
-                position: fixed;
-                margin-top: 5px;
-                margin-left: 100px;
-            }
-            .docLogo{
+                margin-top:3px;
+                height: 20px;
                 width: 15px;
-                
+                background-color: transparent;
             }
 
             #toprightlogo{
