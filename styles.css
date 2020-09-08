@@ -636,12 +636,13 @@ main{
         width: 100vw;
         top: 0px;
         padding: 20px 20px 20px 20px;
-        margin-bottom:0px;
+        margin-bottom:00px;
         
     }
     .tabs{
         margin-left: 10px;
         text-align: left;
+        margin-bottom: 200px;
     }
 
     
